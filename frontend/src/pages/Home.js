@@ -1,14 +1,18 @@
 import React from "react";
+
+import "./styles/Home.css"
+
 import Article from "../components/Article";
+
+
 function Home() {
   return (
-    <div className="App">
-      <main className="d-flex justify-content-center align-items-center">
+      <div className="Home__body d-flex justify-content-center align-items-center">
         <div className="container">
           <div className="row">
             <div className="col-9">
               <div className="row">
-                <div className="col-6">
+                <div className="col-6  py-3">
                   <Article
                     title="This is all products in our mall online"
                     resumen=""
@@ -16,7 +20,7 @@ function Home() {
                     link="https://www.youtube.com/watch?v=67ASQxnnyFE"
                   />
                 </div>
-                <div className="col-6">
+                <div className="col-6  py-3">
                   <Article
                     title="This is all products in our mall online"
                     resumen=""
@@ -24,7 +28,7 @@ function Home() {
                     link="https://www.youtube.com/watch?v=67ASQxnnyFE"
                   />
                 </div>
-                <div className="col-12">
+                <div className="col-12  py-3">
                   <Article
                     title="Equip Challange Front"
                     resumen="Excepteur sint occaecat cupidatad non proident, sunt in culpa qui officia deserunt"
@@ -37,8 +41,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </main>
-    </div>
+      </div>
   );
 }
 

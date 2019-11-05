@@ -7,7 +7,7 @@ function Layout(props) {
     return (
         <React.Fragment>
             <Navigation />
-            {props.children};
+            {props.children}
             <Footer />
         </React.Fragment>    
     );

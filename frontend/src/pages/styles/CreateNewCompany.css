@@ -1,0 +1,9 @@
+.NewCompany__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+}
+.NewCompany__box-form{
+    width: 400px;
+}
