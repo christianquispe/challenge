@@ -10,7 +10,6 @@ import Companies from "../pages/Companies"
 import Products from "../pages/Products";
 import Login from "../pages/Login"
 import Register from "../pages/Register";
-import auth from "../../backend/router/auth";
 
 
 import WelcomeNewUser from "../pages/WelcomeNewUser";
@@ -24,7 +23,7 @@ function App() {
                 <Route exact path="/companies" component={Companies}/>
                 <Route exact path="/products" component={Products}/>
                 <Route exact path="/login" component={Login}/>
-                <Route exact path="/auth/register" component={auth}/>
+                <Route exact path="/register" component={Register}/>
                 <Route exact path="/welcome/new/user" component={WelcomeNewUser}/>
                 <Route exact path="/create/new/company" component={CreateNewCompany}/>
             </Switch>
