@@ -1,0 +1,49 @@
+import React from 'react';
+
+class RegisterForm extends React.Component{
+
+    state = {
+        names: "",
+        email: "",
+        password: "",
+    };
+
+    handleChange = (e) => {
+        this.setState({
+            [e.target.name]: e.target.value,
+        });
+    }
+    handleClick = (e) => {
+        console.log( "Bottom was click!");
+        console.log(this.state);
+    }
+    handleSubmit = (e) => {
+        e.preventDefault();
+    }
+
+    render(){
+        return(
+            <div>
+                <h2>Acces to platform  <br/> <span>Login</span> </h2>
+                <form onSubmit={this.handleSubmit}>
+                    <div className="form-group">
+                        <label>Name</label>
+                        <input onChange={this.handleChange} name="names" type="text" className="form-control" value={this.state.names}/>
+                    </div>
+                    <div className="form-group">
+                        <label>Email</label>
+                        <input onChange={this.handleChange} name="email" type="email" className="form-control" value={this.state.email}/>
+                    </div>
+                    <div className="form-group">
+                        <label>Password</label>
+                        <input onChange={this.handleChange} name="password" type="password" className="form-control" value={this.state.password}/>
+                    </div>
+                    <button onClick={this.handleClick} className="btn btn-primary">{this.props.textButtom}</button>
+                </form>
+            </div>
+        );
+    }
+}
+
+
+export default RegisterForm;
