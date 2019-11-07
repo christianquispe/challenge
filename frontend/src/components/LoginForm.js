@@ -1,11 +1,16 @@
 import React from 'react';
 
+import { Link } from "react-router-dom";
+
 class LoginForm extends React.Component{
 
-    state = {
-        email: "",
-        password: "",
-    };
+    constructor(){
+        super();
+        this.state = {
+            email: "",
+            password: "",
+        };
+    }
 
     handleChange = (e) => {
         this.setState({
@@ -34,6 +39,7 @@ class LoginForm extends React.Component{
                         <input onChange={this.handleChange} name="password" type="password" className="form-control" value={this.state.password}/>
                     </div>
                     <button onClick={this.handleClick} className="btn btn-primary">{this.props.textButtom}</button>
+                    <p>Do not you have an account yet? <Link to="/register">Click here</Link> to register</p>
                 </form>
             </div>
         );

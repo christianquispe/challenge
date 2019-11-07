@@ -1,0 +1,12 @@
+.Buttom{
+    border-radius: 40px ;
+    padding: 10px 20px;
+    background: linear-gradient(-90deg, #0089fe, #00ece2);
+    color: #ffffff;
+    display: inline-block;
+}
+.Buttom:hover{
+    color: #ffffff;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.4);
+    text-decoration: none;
+}

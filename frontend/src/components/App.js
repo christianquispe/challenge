@@ -9,7 +9,7 @@ import Home from "../pages/Home";
 import Companies from "../pages/Companies"
 import Products from "../pages/Products";
 import Login from "../pages/Login"
-import Register from "../pages/Register";
+import Register from "../pages/Register"; 
 
 
 import WelcomeNewUser from "../pages/WelcomeNewUser";

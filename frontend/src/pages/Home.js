@@ -3,7 +3,7 @@ import React from "react";
 import "./styles/Home.css"
 
 import Article from "../components/Article";
-
+import Buttom from "../components/Buttom";
 
 function Home() {
   return (
@@ -37,7 +37,7 @@ function Home() {
               </div>
             </div>
             <div className="col-3 d-flex justify-content-center align-items-center">
-              <a href="·">Start your project</a>
+              <Buttom link="/login" linkText="Start your project"/>
             </div>
           </div>
         </div>

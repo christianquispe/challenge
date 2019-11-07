@@ -9,8 +9,8 @@ class Company extends React.Component {
       <React.Fragment>
         {this.props.companys.map(company => {
           return (
-            <div className="col-3">
-              <article className="card" key={company.id}>
+            <div className="col-3" key={company.id}>
+              <article className="card">
                 <div className="p-3 text-left ">
                   <div className="card-img-top p-3">
                     <Link to="/">

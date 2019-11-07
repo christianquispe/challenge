@@ -1,3 +1,12 @@
 .Navigation__logo{
-    height: 40px;
+    height: 60px;
+}
+.Navigation__link{
+    color: #221121 !important;
+    font-weight: 500;
+    transition: linear .1s;
+}
+.Navigation__link:hover{
+    color: #0089fe  !important;
+    text-decoration: none;
 }

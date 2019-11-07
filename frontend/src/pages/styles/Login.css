@@ -1,3 +1,16 @@
 .Login__body{
-    padding: 200px 0;
+    padding: 100px 0;
+}
+
+.Login__img{
+    height: 400px;
+    animation: movimiento 2s linear .3s infinite alternate none;
+}
+@keyframes movimiento {
+    from{
+        transform: translateY(-15px);
+    }
+    to{
+        transform: translateY(15px);
+    }
 }

@@ -1,3 +1,17 @@
 .Register__body{
-    padding: 100px 0;
+    padding: 50px 0;
+}
+
+.Register__img{
+    height: 400px;
+    animation: movimiento 2s linear .3s infinite alternate none;
+}
+
+@keyframes movimiento {
+    from{
+        transform: translateY(-15px);
+    }
+    to{
+        transform: translateY(15px);
+    }
 }

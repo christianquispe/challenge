@@ -5,12 +5,15 @@ import { Link } from "react-router-dom";
 
 class RegisterForm extends React.Component{
 
-    state = {
-        names: "",
-        email: "",
-        password: "",
-        passwordConfirmation: "",
-    };
+    constructor(){
+        super();
+        this.state = {
+            names: "",
+            email: "",
+            password: "",
+            passwordConfirmation: "",
+        };
+    }
 
     handleChange = (e) => {
         this.setState({

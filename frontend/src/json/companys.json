@@ -1,0 +1,60 @@
+{
+    "dataCompanys": [
+      {
+        "id": "1",
+        "nameCompany": "Chemifabrik SAC",
+        "rucCompany": "32537585674",
+        "description": "Un texto de prueba en español",
+        "webSite": "/companys"
+      },
+      {
+        "id": "2",
+        "nameCompany": "Partequipos SAC",
+        "rucCompany": "32537585674",
+        "description": "Un texto de prueba en español",
+        "webSite": "/companys"
+      },
+      {
+        "id": "3",
+        "nameCompany": "Aquatec SAC",
+        "rucCompany": "32537585674",
+        "description": "Un texto de prueba en español",
+        "webSite": "/companys"
+      },
+      {
+        "id": "4",
+        "nameCompany": "Aquatec Chemi SAC",
+        "rucCompany": "32537585674",
+        "description": "Un texto de prueba en español",
+        "webSite": "/companys"
+      },
+      {
+        "id": "5",
+        "nameCompany": "Aquatec SAC",
+        "rucCompany": "32537585674",
+        "description": "Un texto de prueba en español",
+        "webSite": "/companys"
+      },
+      {
+        "id": "6",
+        "nameCompany": "Aquatec Chemi SAC",
+        "rucCompany": "32537585674",
+        "description": "Un texto de prueba en español",
+        "webSite": "/companys"
+      },
+      {
+        "id": "7",
+        "nameCompany": "Aquatec Chemi SAC",
+        "rucCompany": "32537585674",
+        "description": "Un texto de prueba en español",
+        "webSite": "/companys"
+      },
+      {
+        "id": "8",
+        "nameCompany": "Aquatec Chemi SAC",
+        "rucCompany": "32537585674",
+        "description": "Un texto de prueba en español",
+        "webSite": "/companys"
+      }
+    ]
+  }

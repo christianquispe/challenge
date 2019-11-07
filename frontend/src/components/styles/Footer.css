@@ -1,11 +1,11 @@
 .Footer{
     height: 40px;
-    background-color: #232323;
+    background-color: #e7e8fb;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .Footer__text{
-    color: #dedede;
+    color: #212121;
     margin: 0px;
 }
